@@ -1,0 +1,139 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="{% static 'home/index.css' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+    <title>MIT SOER</title>
+  </head>
+<body class="container-fluid">
+	<section class="container-fluid navigation">
+		<div class="row">
+			<div class="col-md-4 text-danger logo">MIT SOER</div>
+			<div class="col-md-6 navbar navbar-expand-lg navlist">
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ">
+						<li class="nav-item active"><a class="text-danger nav-link " href="#">Home</a></li>
+						<li class="nav-item"><a class="text-danger nav-link" href="#">Academics</a></li>
+						<li class="nav-item "><a class="text-danger nav-link" href="#">Publications</a></li>
+						<li class="nav-item "><a class="text-danger nav-link" href="#">Admission</a></li>
+						<li class="nav-item "><a class="text-danger nav-link" href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<a class="login" href="#" data-toggle="modal" data-target="#exampleModal" style="padding-top: 16%;">Sign up</a><a  class="login" href="#" data-toggle="modal" data-target="#signin" style="padding-top: 16%;">Sign in / </a>
+			  <div class="login">
+			<!-- Modal -->
+					<div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="signinlabel" aria-hidden="true">
+					  <div class="modal-dialog signin_popup" role="document">
+						<div class="modal-content col-xl-9">
+						  <div class="modal-body">
+							  <div class="login_name">
+								MIT SOER
+							  </div>
+							<form  signin_form>
+							  <div class="form-group">
+								<input type="email" class="form-control" id="signin_email" aria-describedby="emailHelp" placeholder="Phone number, username, or email">
+							  </div>
+							  <div class="form-group">
+								<input type="password" class="form-control" id="signin_pass" placeholder="Password">
+							  </div>
+							  <div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="remember_me">
+								<label class="form-check-label" for="remember_me">Remember me</label>
+							  </div>
+							  <button type="submit" class="btn btn-danger btn_login">Login</button>
+								<div class="or">or</div>
+								<div class="forget"><a class="forget" href="#">Forget password?</a></div>
+							</form>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section class="container-fluid banner">
+	  <div >
+		  <div class="heading_banner" >
+			<h1 class="display-4 main_head">Latest news heading</h1>
+			<p class="lead">
+				News content lorem epsum loremepsum lorem epsum loremepsum lorem epsum loremepsum lorem epsum loremepsum lorem epsum loremepsum ....... <a class="read_more" href="#">Read more</a> 
+			</p>
+		</div>
+	  </div>
+	</section>
+<section class="recent">
+		<div class="container recent_heading">
+			<h1 class="display-5 recent_line text-danger">Recent publication</h1>
+		</div>
+		<div class="row cards">
+			<div class="col-md-4 mt-4">
+				<div class="card profile-card-5">
+					<div class="card-img-block">
+						<img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+					</div>
+					<div class="card-body pt-0">
+						<h5 class="card-title">Recent publication one</h5>
+						<p class="card-text">its content and put your content here without fail and attendance is mandatory.</p>
+						<a href="#" class="btn btn-danger">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mt-4">
+				<div class="card profile-card-5">
+					<div class="card-img-block">
+						<img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+					</div>
+					<div class="card-body pt-0">
+						<h5 class="card-title">Recent publication two</h5>
+						<p class="card-text">
+							Students of MIT attends all the lectures daily, which makes class crowded.
+						</p>
+						<a href="#" class="btn btn-danger">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mt-4">
+				<div class="card profile-card-5">
+					<div class="card-img-block">
+						<img class="card-img-top" src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c" alt="Card image cap">
+					</div>
+					<div class="card-body pt-0">
+						<h5 class="card-title">Recent publication three</h5>
+						<p class="card-text">
+							Students have to attend the program in the dome otherwise attendance will not be marked
+						</p>
+						<a href="#" class="btn btn-danger">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid ">
+		<div class="">
+			<h1 class="display-3 why_content">Why choose Us?</h1>
+			<p class="lead why_us">
+				lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsumlorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsumlorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsumlorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsumlorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsumlorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum lorem epsum
+			</p>
+		</div>
+	</section>
+	
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
